@@ -9,58 +9,149 @@
 <body>
 
   <div class="wrapper">
-
-    <header class="top">
-      <h1><a href="#">What The Flexbox?!</a></h1>
-    </header>
-
+    <div class="main-header">
     <nav class="flex-nav">
-      <a href="#" class="toggleNav">☰ Menu</a>
+      <a href="#" class="toggleNav">☰</a>
       <ul>
-        <li><a href="#">Item 01</a></li>
-        <li><a href="#">Item 02</a></li>
-        <li><a href="#">Item 03</a></li>
-        <li><a href="#">Item 04</a></li>
-        <li><a href="#">Item 05</a></li>
-        <li><a href="#">Item 06</a></li>
-        <li class="social">
-          <a href="http://twitter.com/wesbos"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li class="social">
-          <a href="http://facebook.com/wesbos.developer"><i class="fa fa-facebook"></i></a>
-        </li>
-        <li class="social">
-          <a href="http://github.com/wesbos"><i class="fa fa-github"></i></a>
-        </li>
-        <li class="social">
-          <a href="http://instagram.com/wesbos"><i class="fa fa-instagram"></i></a>
-        </li>
+        <li><a href="#"> <img src="img/airbnb-logo.png" alt="" /></a></li>
+        <li><a href="#"> <span> Become a Host</span></a></li>
+        <li><a href="#"> <span> Help</span></a></li>
+        <li><a href="#"> <span> Sign Up</span></a></li>
+        <li><a href="#"> <span> Log In</span></a></li>
       </ul>
     </nav>
 
-    <section class="hero">
-      <img src="http://lorempixel.com/1000/600/abstract">
-    </section>
+    <header class="top">
+      <h1>WELCOME HOME</h1>
+      <h4>Rent unique places to stay from local hosts in 190+ countries.</h4>
+      <a href="#">How it Works</a>
+    </header>
 
-    <section class="details">
-      <p>A simple video course to help you master FlexBox.</p>
-      <p>Sign up today to grab all the videos and exercises!</p>
-    </section>
-
-    <section class="signup">
-      <form action="" class="signup">
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Email Address">
-        <input type="submit" value="Sign me up!">
+    <section class="search-bar">
+      <form action="" class="where">
+        <input type="text" placeholder="Where do you want to go?">
+        <input type="date" placeholder="Check In">
+        <input type="date" value="Check Out">
+        <select name="guest">
+          <option value="1">1 Guest</option>
+          <option value="2">2 Guest</option>
+          <option value="3">3 Guest</option>
+          <option value="4">4 Guest</option>
+          <option value="5">5 Guest</option>
+        </select>
+        <button type="submit" value="search">Search</button>
       </form>
     </section>
+    </div>
 
-    <footer>
-      <p>&copy; Wes Bos</p>
-    </footer>
+      <section class="details">
+        <div class="sydney">
+          <img src="img/e.jpg" alt="" />
+        </div>
+        <div class="detail-info">
+          <h3>Start your adventure with</h3>
+          <h1>$100*</h1>
+          <button type="button" name="island">Live at the Opera</button>
+          <p>*Terms and conditions apply</p>
+        </div>
+      </section>
+
+      <section class="weekend">
+        <h1>Just for the weekend</h1>
+        <h5>Discover new, inspiring places close to home.</h5>
+        <div class="destinations">
+          <img src="img/b.jpg" alt="" />
+          <img src="img/c.jpg" alt="" />
+          <img src="img/d.jpg" alt="" />
+        </div>
+        <a href="#">See all Destinations</a>
+      </section>
+
+      <section class="world">
+        <h3>Explore the World</h3>
+        <h5>See where people are traveling, all around the world.</h5>
+        <div class="la">
+          <div class="world-img">
+            <img src="img/a.jpg" alt="" />
+          </div>
+          <div class="world-img">
+            <img src="img/f.jpg" alt="" />
+          </div>
+        </div>
+        <div class="ny">
+          <div class="world-img">
+            <img src="img/f.jpg" alt="" />
+          </div>
+          <div class="world-img">
+            <img src="img/f.jpg" alt="" />
+          </div>
+          <div class="world-img">
+            <img src="img/f.jpg" alt="" />
+          </div>
+        </div>
+
+        </div>
+        <div class="chicago">
+          <div class="world-img">
+            <img src="img/h.jpg" alt="" />
+          </div>
+          <div class="world-img">
+            <img src="img/g.jpg" alt="" />
+          </div>
+          <div class="world-img">
+            <img src="img/j.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel">
+        <img src="img/b.jpg" alt="" />
+      </section>
+
+      <section class="community">
+        <div class="create">
+          <h5>Make Airbnb yours</h5>
+          <a href="#">Create your symbol, Tell your story</a>
+        </div>
+        <div class="travel">
+          <h5>Alice &amp; Chris</h5>
+          <p>Across an ocean or across town, Alice &amp; Chris are always in search of local experiences.</p>
+          <a href="#">Learn more about travel on Airbnb</a>
+        </div>
+        <div class="business">
+          <h5>Airbnb for Business</h5>
+          <p>Feel at home, wherever your work takes you.</p>
+          <a href="#">Get your team on Airbnb</a>
+        </div>
+        <div class="host">
+          <h5>Nina</h5>
+          <p>Nina rules</p>
+          <a href="#">Learn more about hosting on Airbnb</a>
+        </div>
+      </section>
+
+      <footer>
+        <hr>
+        <p>Join Us on</p>
+        <ul>
+          <li class="social">
+            <a href="http://twitter.com/wesbos"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://facebook.com/wesbos.developer"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://github.com/wesbos"><i class="fa fa-github"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://instagram.com/wesbos"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </footer>
 
 
   </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script>
@@ -71,5 +162,6 @@
       });
     });
   </script>
+
 </body>
 </html>
